@@ -2,3 +2,4 @@ scipy
 librosa
 matplotlib
 numpy
+seaborn
