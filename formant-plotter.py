@@ -77,5 +77,6 @@ def update(frame):
 
 ani = animation.FuncAnimation(fig, update, frames=len(frames), interval=20, blit=True)
 if args.save:
+    print("Saving to formants.mp4")
     ani.save("formants.mp4")
 plt.show()
