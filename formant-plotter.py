@@ -13,6 +13,7 @@ parser = argparse.ArgumentParser(
     description="Plots formants"
 )
 parser.add_argument("file_name", help="Input wav file name")
+parser.add_argument("--save", help="Save to formants.mp4", action="store_true")
 args = parser.parse_args()
 
 if not os.path.exists(args.file_name):
@@ -75,4 +76,6 @@ def update(frame):
     return line1,
 
 ani = animation.FuncAnimation(fig, update, frames=len(frames), interval=20, blit=True)
+if args.save:
+    ani.save("formants.mp4")
 plt.show()
