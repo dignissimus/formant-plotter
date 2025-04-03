@@ -1,6 +1,9 @@
-# Example
-`python formant-plotter.py file.wav`
-# Usage 
+# Usage
+```
+python formant-plotter.py file.wav
+```
+
+# Help 
 ```
 usage: formant-plotter [-h] file_name
 
