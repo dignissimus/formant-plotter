@@ -5,7 +5,7 @@ python formant-plotter.py file.wav
 
 # Help 
 ```
-usage: formant-plotter [-h] file_name
+usage: formant-plotter [-h] [--save] file_name
 
 Plots formants
 
@@ -14,4 +14,5 @@ positional arguments:
 
 options:
   -h, --help  show this help message and exit
+  --save      Save to formants.mp4
 ```
