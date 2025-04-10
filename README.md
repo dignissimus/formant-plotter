@@ -1,6 +1,8 @@
-# Usage
+# Formant plotter
 
 https://github.com/user-attachments/assets/5d787ae5-ff7e-431e-b92a-d971d6454281
+
+# Usage
 
 ```
 python formant-plotter.py file.wav
